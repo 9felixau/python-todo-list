@@ -21,3 +21,7 @@ def remove_task(index):
 
 if __name__ == "__main__":
     add_task("Buy groceries")
+    add_task("Finish homework")
+    list_tasks()
+    remove_task(0)
+    list_tasks()
