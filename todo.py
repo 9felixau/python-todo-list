@@ -14,3 +14,7 @@ def list_tasks():
 
 def remove_task(index):
     if 0 <= index < len(tasks):
+        removed = tasks.pop(index)
+        print(f"Removed task: {removed}")
+    else:
+        print("Invalid task index.")
