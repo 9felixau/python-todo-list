@@ -18,3 +18,6 @@ def remove_task(index):
         print(f"Removed task: {removed}")
     else:
         print("Invalid task index.")
+
+if __name__ == "__main__":
+    add_task("Buy groceries")
