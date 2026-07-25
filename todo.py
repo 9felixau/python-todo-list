@@ -11,3 +11,6 @@ def list_tasks():
         print("No tasks found.")
     for idx, task in enumerate(tasks, 1):
         print(f"{idx}. {task}")
+
+def remove_task(index):
+    if 0 <= index < len(tasks):
